@@ -168,7 +168,7 @@ nav ul li:last-child a:hover{
 
 .sliderwrapper ul li.slide1 {
 	width: 100%;
-	background: url('img/slide1.jpg') no-repeat center center;
+	background: url('..img/slide1.jpg') no-repeat center center;
 	background-size: cover;
 	height:auto;
 }
