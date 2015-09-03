@@ -123,7 +123,6 @@ nav ul li a{
 
 nav ul li:hover > a{
 	top:-5px;	
-
 }
 
 nav ul li:last-child{
@@ -168,21 +167,21 @@ nav ul li:last-child a:hover{
 
 .sliderwrapper ul li.slide1 {
 	width: 100%;
-	background: url('/img/slide1.jpg') no-repeat center center;
+	background: url('../img/slide1.jpg') no-repeat center center;
 	background-size: cover;
 	height:auto;
 }
 
 .sliderwrapper ul li.slide2{
 	width: 100%;
-	background: url('/img/slide2.jpg') no-repeat center center;
+	background: url('../img/slide2.jpg') no-repeat center center;
 	background-size: cover;
 	height:auto;
 }
 
 .sliderwrapper ul li.slide3 {
 	width: 100%;
-	background: url('/img/slide3.jpg') no-repeat center center;
+	background: url('../img/slide3.jpg') no-repeat center center;
 	background-size: cover;
 	height:auto;
 }
@@ -256,37 +255,37 @@ nav ul li:last-child a:hover{
 
 /*img and p hover states*/
 .features ul li.map{
-	background-image: url('/img/map.png');
+	background-image: url('../img/map.png');
 }
 
 .features ul li:first-child:hover{
-	background-image: url('/img/mapselected.png');
+	background-image: url('../img/mapselected.png');
 }
 
 .features ul li.speaker{
-	background-image: url('/img/speaker.png');
+	background-image: url('../img/speaker.png');
 }
 
 .features ul li.speaker:hover{
-	background-image: url('/img/speakerselected.png');
+	background-image: url('../img/speakerselected.png');
 
 }
 
 .features ul li.tickets{
-	background-image: url('/img/tickets.png');
+	background-image: url('../img/tickets.png');
 }
 
 .features ul li.tickets:hover{
-	background-image: url('/img/ticketsselected.png');
+	background-image: url('../img/ticketsselected.png');
 }
 
 
 .features ul li.car{
-	background-image: url('/img/car.png');
+	background-image: url('../img/car.png');
 }
 
 .features ul li.car:hover{
-	background-image: url('/img/carselected.png');
+	background-image: url('../img/carselected.png');
 
 }
 
@@ -356,27 +355,27 @@ section.blog article.musician5{
 
 
 section.blog article.musician1{
-	background: url('/img/mavisstaples.jpg') no-repeat center center;
+	background: url('../img/mavisstaples.jpg') no-repeat center center;
 	background-size: cover;
 }
 
 section.blog article.musician2{
-	background: url('/img/motioncity.jpg') no-repeat center center;
+	background: url('../img/motioncity.jpg') no-repeat center center;
 	background-size: cover;
 }
 
 section.blog article.musician3{
-	background: url('/img/koffinkatz.jpg') no-repeat center center;
+	background: url('../img/koffinkatz.jpg') no-repeat center center;
 	background-size: cover;
 }
 
 section.blog article.musician4{
-	background: url('/img/john.jpg') no-repeat center center;
+	background: url('../img/john.jpg') no-repeat center center;
 	background-size: cover;
 }
 
 section.blog article.musician5{
-	background: url('/img/string.jpg') no-repeat center center;
+	background: url('../img/string.jpg') no-repeat center center;
 	background-size: cover;
 }
 
@@ -417,13 +416,12 @@ section.blog article h6{
 
 section.app{
 	height: 580px;
-	background: url('/img/band.jpg') no-repeat center center;
+	background: url('../img/band.jpg') no-repeat center center;
 	background-size: cover;
 	position:relative;
 	overflow: hidden;
 	text-align: center;
 }
-
 
 section.app img.giglogo{
 	text-align: center;
@@ -440,7 +438,6 @@ section.app h2{
 	line-height: 1.5em;
 }
 
-
 section.app ul li{
 	list-style: none;
 	display:block;
@@ -453,7 +450,6 @@ section.app ul.iphoneapp li a:first-child img
 	height:55px;
 }
 
-
 section.app ul.androidapp li:last-child{
 	margin-top: 65px;
 }
@@ -465,7 +461,6 @@ section.app ul.iphoneapp li:last-child{
 section.app ul.iphoneapp li:last-child img {
 	width:250px;
 }
-
 
 section.app ul.iphoneapp {
 	float: left;
@@ -605,9 +600,6 @@ footer p{
 /***************************media queries***************************/
 
 @media screen and (max-width:1200px){
-
-
-
 	section.app ul li:last-child{
 		display: none;
 	}
@@ -651,7 +643,6 @@ footer p{
 			margin:0;
 	}
 
-
 	section.app ul.iphoneapp li a:first-child img
 	,section.app ul.androidapp li a:first-child img{
 		width: 200px;
@@ -665,9 +656,6 @@ footer p{
 	section.app ul.googleplay li:first-child img{
 		margin-bottom: 50px;
 	}
-
-
-
 }
 
 @media screen and (max-width:1100px){
@@ -699,7 +687,7 @@ footer p{
 	/*******responsive menu*****/
 
 	.containerfeatures,
-.containercta{
+	.containercta{
 	position:relative;
 	width: 100%;
 	height: auto;
