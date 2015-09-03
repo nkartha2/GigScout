@@ -36,10 +36,9 @@ $('.bxslider').bxSlider({
 });
 
 $('#bxslider1').bxSlider({
-  minSlides: 3,
+  minSlides: 4,
   maxSlides: 5,
   slideWidth: 300,
-  controls:true,
   slideMargin: 10,
   moveSlides: 1,
   pager:false
