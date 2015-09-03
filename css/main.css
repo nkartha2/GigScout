@@ -25,7 +25,7 @@
 /*fonts*/
 html,body{
 	width: 100%; 
-	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; 
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', sans-serif; 
 	font-weight: 300; 
 	font-style: normal;
 	background-color: #309dd4;
